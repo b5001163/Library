@@ -39,20 +39,6 @@
 		<g:link controller="library" action="create">Library</g:link>
 	</button>
 </div>
-<div class="first">
-	<h3>Book Management</h3>
-<p>This is the book management area.</p>
-	<button type="button" class="btn btn-success">
-		<g:link controller="book" action="create">Book</g:link>
-	</button>
-</div>
-<div class="second">
-	<h3>Book Review Management</h3>
-<p>This is the book review management area.</p>
-	<button type="button" class="btn btn-success">
-		<g:link controller="bookReview" action="create">Book Review</g:link>
-	</button>
-</div>
 </div>
 </body>
 </html>
