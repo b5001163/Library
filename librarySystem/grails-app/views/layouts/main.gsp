@@ -13,9 +13,10 @@
     <g:layoutHead/>
 </head>
 <body>
-
+	
     <div class="row">
 	<asset:image src="library_banner.fw.png" height="200px" width="100%" />
+<g:loginToggle />
 	</div>
 
     <g:layoutBody/>

@@ -33,10 +33,10 @@
 	</button>
 </div>
 <div class="second">
-	<h3>Course Management</h3>
-<p>This is the course management area.</p>
+	<h3>Library Management</h3>
+<p>This is the library management area.</p>
 	<button type="button" class="btn btn-success">
-		<g:link controller="course" action="create">Course</g:link>
+		<g:link controller="library" action="create">Library</g:link>
 	</button>
 </div>
 <div class="first">
@@ -52,7 +52,6 @@
 	<button type="button" class="btn btn-success">
 		<g:link controller="bookReview" action="create">Book Review</g:link>
 	</button>
-</div>
 </div>
 </div>
 </body>
