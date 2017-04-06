@@ -13,9 +13,14 @@
             <h1>Welcome to Library Gateway</h1>
 <div class="row">
 	<asset:image src="library_books.fw.png" height="200px" width="100%"/>
-<g:link controller="student" action="theArea">Students</g:link>
-<g:link controller="librarian" action="theArea">Librarians</g:link>
 </div>
 
+	<div id="content" role="main">
+	<h1>Students Area</h1>
+		<div class="row">
+		<div class="first">
+			<g:stuloginToggle/>
+</div>
 </body>
 </html>
+		

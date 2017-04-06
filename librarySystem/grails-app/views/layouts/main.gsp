@@ -16,8 +16,7 @@
 	
     <div class="row">
 	<asset:image src="library_banner.fw.png" height="200px" width="100%" />
-<g:libloginToggle />
-<g:stuloginToggle />
+
 	</div>
 
     <g:layoutBody/>

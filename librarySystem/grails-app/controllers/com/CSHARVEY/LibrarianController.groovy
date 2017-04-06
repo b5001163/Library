@@ -3,6 +3,9 @@ package com.CSHARVEY
 class LibrarianController {
 
     def scaffold = Librarian
+def theArea(){
+render view: 'librarian'
+}
 def login(){
 }
 def validate(){

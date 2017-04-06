@@ -8,7 +8,8 @@
 <asset:stylesheet src="home.css"/>
 </head>
 <body>
-<div id="content" role="main">
+
+    <div id="content" role="main">
 <div class="row">
 <div class="first">
 	<h3>Book Management</h3>
@@ -21,10 +22,10 @@
 	<h3>Book Review Management</h3>
 <p>This is the book review management area.</p>
 	<button type="button" class="btn btn-success">
-		<g:link controller="bookReview" action="create">bookReview</g:link>
+		<g:link controller="bookReview" action="create">BookReview</g:link>
 	</button>
+</div>
 </div>
 </div>
 </body>
 </html>
-

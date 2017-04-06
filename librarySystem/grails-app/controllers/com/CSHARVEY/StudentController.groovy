@@ -3,6 +3,10 @@ package com.CSHARVEY
 class StudentController {
 
     def scaffold = Student
+
+def theArea(){
+render view:'student'
+}
 def login(){
 }
 def validate(){
@@ -19,10 +23,26 @@ else{
 
 	render view:'login'
 }
-}
 def logout = {
 	session.user = null
 
 	redirect(uri:'/')
+}
+
+}
+def advSearch(){
+}
+def advResults(){
+	def studentProps = Student.metaClass.properties*.name
+	def students = Student.withCriteria{
+	"${params.queryType}"{
+		params.each{field,value ->
+	if(studentProps.grep(field)&&value){
+		ilike(field,value)
+}
+}
+}
+}
+return [students:students] 
 }
 }
