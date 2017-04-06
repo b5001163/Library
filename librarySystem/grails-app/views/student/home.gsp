@@ -25,6 +25,13 @@
 		<g:link controller="bookReview" action="create">BookReview</g:link>
 	</button>
 </div>
+<div class="first">
+	<h3>Search Management</h3>
+<p>Here you will be able to run a simple search for books</p>
+	<button type="button" class="btn btn-success">
+		<g:link controller="book" action="advSearch">Advance Search for Books</g:link>
+	</button>
+</div>
 </div>
 </div>
 </body>
